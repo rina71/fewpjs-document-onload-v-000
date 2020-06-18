@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
-    replace()
+    replaceDOM()
 });
 
-function replace(){
+function replaceDOM(){
     document.getElementbyId('text').innerHTML = "This is really cool!";
 }
